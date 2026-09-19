@@ -1,0 +1,525 @@
+import type { ModelLesson } from '@/lib/model-lessons';
+
+export const batch7Lessons: Record<string, ModelLesson> = {
+  'en-04': {
+    language: 'en',
+    title: 'Comida y compras',
+    level: 'A2.1',
+    duration: '10–12 min',
+    objective: 'Puedo pedir comida, comparar precios y expresar preferencias.',
+    introduction: {
+      summary:
+        'Distingue cantidades, pide productos con cortesía y compara opciones antes de comprar.',
+      concepts: [
+        {
+          title: 'Contable o incontable',
+          explanation:
+            'Los nombres contables admiten números; los incontables usan expresiones de cantidad.',
+          examples: ['two apples', 'some rice', 'a bottle of water'],
+        },
+        {
+          title: 'Some, any y cantidad',
+          explanation:
+            'Some aparece en afirmaciones y peticiones; any es habitual en preguntas y negativas. How much pregunta por incontables o precio.',
+          examples: [
+            'Can I have some bread?',
+            'Do you have any milk?',
+            'How much is it?',
+          ],
+        },
+        {
+          title: 'Comparar',
+          explanation:
+            'Añade -er a muchos adjetivos cortos y usa more con muchos adjetivos largos.',
+          examples: ['This bag is cheaper.', 'The market is more convenient.'],
+        },
+      ],
+      tip: 'Primero decide si hablas de una unidad, una cantidad o un precio; eso determina la estructura.',
+    },
+    exercises: [
+      {
+        id: 'en-04-01',
+        kind: 'choice',
+        phase: 'activar',
+        prompt: '¿Cuál es un nombre incontable?',
+        hint: 'No suele contarse como unidades sueltas.',
+        options: ['rice', 'apple', 'sandwich'],
+        answer: 'rice',
+        explanation:
+          'Rice es incontable; puede medirse con expresiones como a bowl of rice.',
+      },
+      {
+        id: 'en-04-02',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: 'Completa la petición: Can I have ___ bread, please?',
+        hint: 'Es una petición y bread es incontable.',
+        options: ['some', 'any', 'an'],
+        answer: 'some',
+        explanation:
+          'En peticiones usamos normalmente some, aunque la oración sea interrogativa.',
+      },
+      {
+        id: 'en-04-03',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: 'Completa: Do you have ___ bananas?',
+        hint: 'Es una pregunta general con plural.',
+        options: ['any', 'some', 'much'],
+        answer: 'any',
+        explanation: 'Any es habitual en preguntas sobre sustantivos plurales.',
+      },
+      {
+        id: 'en-04-04',
+        kind: 'order',
+        phase: 'practicar',
+        prompt: 'Ordena la pregunta por el precio.',
+        hint: 'Empieza con How much.',
+        tokens: ['this', 'is', 'How much', 'sandwich?'],
+        answer: ['How much', 'is', 'this', 'sandwich?'],
+        explanation: 'How much is this sandwich? pregunta por su precio.',
+      },
+      {
+        id: 'en-04-05',
+        kind: 'choice',
+        phase: 'practicar',
+        prompt:
+          'The red bag is $20. The blue bag is $15. Elige la comparación correcta.',
+        hint: 'La bolsa azul cuesta menos.',
+        options: [
+          'The blue bag is cheaper.',
+          'The blue bag is more cheap.',
+          'The red bag is cheapest than.',
+        ],
+        answer: 'The blue bag is cheaper.',
+        explanation: 'Cheap forma el comparativo regular cheaper.',
+      },
+      {
+        id: 'en-04-06',
+        kind: 'choice',
+        phase: 'practicar',
+        prompt: '¿Qué pregunta corresponde a una cantidad de leche?',
+        hint: 'Milk es incontable.',
+        options: [
+          'How much milk do you need?',
+          'How many milk do you need?',
+          'How milk do you need?',
+        ],
+        answer: 'How much milk do you need?',
+        explanation: 'How much se usa con sustantivos incontables.',
+      },
+      {
+        id: 'en-04-07',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Escribe en inglés: “Quisiera una taza de té, por favor”.',
+        hint: "Usa I'd like y una expresión de cantidad.",
+        accepted: [
+          "I'd like a cup of tea, please.",
+          'I would like a cup of tea, please.',
+        ],
+        modelAnswer: "I'd like a cup of tea, please.",
+        explanation: "I'd like… es una forma cortés y natural de pedir.",
+      },
+      {
+        id: 'en-04-08',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Compara dos productos por precio y di cuál prefieres.',
+        hint: 'Usa cheaper/more expensive y I prefer.',
+        accepted: [],
+        modelAnswer:
+          'The apples are cheaper than the strawberries, so I prefer the apples.',
+        explanation:
+          'Debe incluir una comparación comprensible y una preferencia.',
+      },
+    ],
+  },
+  'en-05': {
+    language: 'en',
+    title: 'Experiencias pasadas',
+    level: 'A2.2',
+    duration: '10–12 min',
+    objective: 'Puedo contar qué hice y ordenar acontecimientos sencillos.',
+    introduction: {
+      summary:
+        'Usa el pasado simple para narrar acciones terminadas y conectores para mostrar su orden.',
+      concepts: [
+        {
+          title: 'Pasado afirmativo',
+          explanation:
+            'Los verbos regulares terminan en -ed; los irregulares cambian de forma.',
+          examples: ['I visited my family.', 'We went to the park.'],
+        },
+        {
+          title: 'Preguntas y negativas',
+          explanation: 'Usa did o did not con el verbo en forma base.',
+          examples: ['Did you enjoy it?', "I didn't stay long."],
+        },
+        {
+          title: 'Orden temporal',
+          explanation:
+            'First, then, after that y finally organizan una narración breve.',
+          examples: ['First, we had lunch.', 'Then, we walked home.'],
+        },
+      ],
+      tip: 'Después de did o didn’t, el verbo vuelve a su forma base: Did you go?, no Did you went?',
+    },
+    exercises: [
+      {
+        id: 'en-05-01',
+        kind: 'choice',
+        phase: 'activar',
+        prompt: 'Completa: Yesterday, I ___ my grandmother.',
+        hint: 'Visit es regular.',
+        options: ['visited', 'visit', 'visiting'],
+        answer: 'visited',
+        explanation: 'Visited marca una acción regular terminada en el pasado.',
+      },
+      {
+        id: 'en-05-02',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: 'Completa: We ___ to the cinema last night.',
+        hint: 'Go es irregular.',
+        options: ['went', 'goed', 'go'],
+        answer: 'went',
+        explanation: 'Went es el pasado irregular de go.',
+      },
+      {
+        id: 'en-05-03',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: 'Elige la pregunta correcta.',
+        hint: 'Después de did usa el verbo base.',
+        options: [
+          'Did you enjoy the trip?',
+          'Did you enjoyed the trip?',
+          'Do you enjoyed the trip?',
+        ],
+        answer: 'Did you enjoy the trip?',
+        explanation: 'Did marca el pasado; enjoy permanece en forma base.',
+      },
+      {
+        id: 'en-05-04',
+        kind: 'order',
+        phase: 'practicar',
+        prompt: 'Ordena la oración negativa.',
+        hint: "Didn't + verbo base.",
+        tokens: ['long.', "didn't", 'We', 'stay'],
+        answer: ['We', "didn't", 'stay', 'long.'],
+        explanation:
+          "La negativa de pasado usa didn't seguido de stay, no stayed.",
+      },
+      {
+        id: 'en-05-05',
+        kind: 'choice',
+        phase: 'practicar',
+        prompt: '¿Qué expresión sitúa claramente la acción en el pasado?',
+        hint: 'Busca un momento terminado.',
+        options: ['last weekend', 'every weekend', 'next weekend'],
+        answer: 'last weekend',
+        explanation: 'Last weekend refiere a un periodo pasado y terminado.',
+      },
+      {
+        id: 'en-05-06',
+        kind: 'order',
+        phase: 'practicar',
+        prompt: 'Ordena la historia.',
+        hint: 'Usa los conectores temporales.',
+        tokens: [
+          'Finally, we went home.',
+          'Then, we saw a film.',
+          'First, we had dinner.',
+        ],
+        answer: [
+          'First, we had dinner.',
+          'Then, we saw a film.',
+          'Finally, we went home.',
+        ],
+        explanation:
+          'First, then y finally indican el orden de los acontecimientos.',
+      },
+      {
+        id: 'en-05-07',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Escribe en inglés: “No trabajé ayer”.',
+        hint: "Usa didn't + work.",
+        accepted: ["I didn't work yesterday.", 'I did not work yesterday.'],
+        modelAnswer: "I didn't work yesterday.",
+        explanation: "Didn't lleva el verbo work en forma base.",
+      },
+      {
+        id: 'en-05-08',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Cuenta tres acciones de tu último fin de semana en orden.',
+        hint: 'Usa first, then y finally con pasado simple.',
+        accepted: [],
+        modelAnswer:
+          'First, I visited a friend. Then, we cooked dinner. Finally, I went home.',
+        explanation:
+          'Debe incluir tres acciones pasadas y un orden temporal claro.',
+      },
+    ],
+  },
+  'ja-12': {
+    language: 'ja',
+    title: 'Comprar',
+    level: 'A1.2',
+    duration: '12–14 min',
+    objective: 'Puedo pedir productos, cantidades y precios.',
+    introduction: {
+      summary:
+        'Señala productos según su distancia, pregunta el precio y pide una cantidad concreta.',
+      concepts: [
+        {
+          title: 'これ・それ・あれ',
+          explanation:
+            'これ está cerca de quien habla, それ cerca de quien escucha y あれ lejos de ambos.',
+          examples: ['これは何ですか。', 'あれはいくらですか。'],
+        },
+        {
+          title: 'Precio',
+          explanation: 'いくらですか pregunta cuánto cuesta algo.',
+          examples: ['これ、いくらですか。', '1,980円です。'],
+        },
+        {
+          title: 'Cantidad + ください',
+          explanation:
+            'Indica la cantidad antes de ください para pedir un producto.',
+          examples: ['りんごを二つください。', 'ひき肉を200グラムください。'],
+        },
+      ],
+      tip: 'Observa dónde está el objeto antes de elegir これ, それ o あれ.',
+    },
+    exercises: [
+      {
+        id: 'ja-12-01',
+        kind: 'choice',
+        phase: 'activar',
+        prompt: 'El objeto está junto a quien habla. ¿Cómo se señala?',
+        hint: 'Está “aquí conmigo”.',
+        options: ['これ', 'それ', 'あれ'],
+        answer: 'これ',
+        explanation: 'これ se refiere a un objeto cercano a quien habla.',
+      },
+      {
+        id: 'ja-12-02',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt:
+          'El objeto está junto a la persona que escucha. Elige la forma.',
+        hint: 'Está cerca de “ti”.',
+        options: ['それ', 'これ', 'あれ'],
+        answer: 'それ',
+        explanation: 'それ señala algo cercano a quien escucha.',
+      },
+      {
+        id: 'ja-12-03',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: '「これ、いくらですか。」 ¿Qué pregunta?',
+        hint: 'いくら se usa para precios.',
+        options: ['¿Cuánto cuesta esto?', '¿Qué es esto?', '¿Dónde está esto?'],
+        answer: '¿Cuánto cuesta esto?',
+        explanation: 'いくらですか pregunta el precio.',
+      },
+      {
+        id: 'ja-12-04',
+        kind: 'order',
+        phase: 'practicar',
+        prompt: 'Ordena: “¿Cuánto cuesta aquello?”.',
+        hint: 'あれ señala algo lejos de ambos.',
+        tokens: ['いくらですか。', 'あれは'],
+        answer: ['あれは', 'いくらですか。'],
+        explanation:
+          'あれはいくらですか pregunta el precio de un objeto distante.',
+      },
+      {
+        id: 'ja-12-05',
+        kind: 'choice',
+        phase: 'practicar',
+        prompt: '¿Cómo pides dos manzanas?',
+        hint: '二つ es el contador general para dos objetos.',
+        options: [
+          'りんごを二つください。',
+          'りんごを二円ください。',
+          'りんごはいくら二つ。',
+        ],
+        answer: 'りんごを二つください。',
+        explanation:
+          'Objeto + cantidad + ください forma una petición de compra.',
+      },
+      {
+        id: 'ja-12-06',
+        kind: 'choice',
+        phase: 'practicar',
+        prompt: '「500円です。」 ¿Qué precio es?',
+        hint: '円 significa yenes.',
+        options: ['500 yenes', '50 yenes', '5,000 yenes'],
+        answer: '500 yenes',
+        explanation: '500円 se lee ごひゃくえん y significa 500 yenes.',
+      },
+      {
+        id: 'ja-12-07',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Escribe en japonés: “¿Cuánto cuesta esto?”.',
+        hint: 'Usa これ e いくらですか.',
+        accepted: [
+          'これはいくらですか。',
+          'これはいくらですか',
+          'これ、いくらですか。',
+          'これ、いくらですか',
+        ],
+        modelAnswer: 'これ、いくらですか。',
+        explanation:
+          'La partícula は puede omitirse en esta interacción habitual de tienda.',
+      },
+      {
+        id: 'ja-12-08',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Pide 200 gramos de carne molida.',
+        hint: 'Usa ひき肉, 200グラム y ください.',
+        accepted: [
+          'ひき肉を200グラムください。',
+          'ひき肉200グラムください。',
+          'ひき肉を200グラムください',
+          'ひき肉200グラムください',
+        ],
+        modelAnswer: 'ひき肉を200グラムください。',
+        explanation:
+          'La cantidad se coloca antes de ください; を puede aparecer tras el producto.',
+      },
+    ],
+  },
+  'ja-13': {
+    language: 'ja',
+    title: 'Fin de semana',
+    level: 'A1 consolidación',
+    duration: '12–14 min',
+    objective: 'Puedo decir qué hice y qué quiero hacer.',
+    introduction: {
+      summary:
+        'Cuenta actividades terminadas y expresa deseos o planes sencillos para el tiempo libre.',
+      concepts: [
+        {
+          title: 'Pasado con ました',
+          explanation:
+            'Cambia ます por ました para hablar de una acción terminada.',
+          examples: ['映画を見ました。', '京都へ行きました。'],
+        },
+        {
+          title: 'Deseos con たいです',
+          explanation: 'Cambia ます por たいです para decir qué quieres hacer.',
+          examples: ['温泉に入りたいです。', 'ラーメンを食べたいです。'],
+        },
+        {
+          title: 'Secuencia',
+          explanation: 'それから conecta una acción con la siguiente.',
+          examples: ['買い物に行きました。それから、映画を見ました。'],
+        },
+      ],
+      tip: 'Compara el final del verbo: ました = lo hice; たいです = quiero hacerlo.',
+    },
+    exercises: [
+      {
+        id: 'ja-13-01',
+        kind: 'choice',
+        phase: 'activar',
+        prompt: '映画を見ました。 ¿Cuándo ocurrió?',
+        hint: 'Observa ました.',
+        options: ['En el pasado.', 'Habitualmente.', 'En el futuro.'],
+        answer: 'En el pasado.',
+        explanation: '見ました es la forma cortés pasada de 見ます.',
+      },
+      {
+        id: 'ja-13-02',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: '¿Qué significa 温泉に入りたいです。?',
+        hint: 'たいです expresa deseo.',
+        options: [
+          'Quiero entrar a un baño termal.',
+          'Entré a un baño termal.',
+          'No hay baño termal.',
+        ],
+        answer: 'Quiero entrar a un baño termal.',
+        explanation: '入りたいです expresa el deseo de entrar.',
+      },
+      {
+        id: 'ja-13-03',
+        kind: 'choice',
+        phase: 'comprender',
+        prompt: 'Cambia 行きます al pasado cortés.',
+        hint: 'Sustituye ます por ました.',
+        options: ['行きました', '行きたいです', '行きませんか'],
+        answer: '行きました',
+        explanation: '行きました significa “fui”.',
+      },
+      {
+        id: 'ja-13-04',
+        kind: 'order',
+        phase: 'practicar',
+        prompt: 'Ordena: “Quiero comer ramen”.',
+        hint: 'Objeto + を + forma en たいです.',
+        tokens: ['食べたいです。', 'ラーメンを'],
+        answer: ['ラーメンを', '食べたいです。'],
+        explanation: '食べます cambia a 食べたいです para expresar deseo.',
+      },
+      {
+        id: 'ja-13-05',
+        kind: 'choice',
+        phase: 'practicar',
+        prompt: '「昨日、何をしましたか。」 Elige una respuesta adecuada.',
+        hint: 'La pregunta pide una acción pasada.',
+        options: [
+          '友だちに会いました。',
+          '友だちに会いたいです。',
+          '友だちに会いませんか。',
+        ],
+        answer: '友だちに会いました。',
+        explanation: '会いました responde con una acción terminada.',
+      },
+      {
+        id: 'ja-13-06',
+        kind: 'order',
+        phase: 'practicar',
+        prompt: 'Ordena las dos acciones.',
+        hint: 'それから introduce la segunda.',
+        tokens: ['それから、映画を見ました。', '買い物に行きました。'],
+        answer: ['買い物に行きました。', 'それから、映画を見ました。'],
+        explanation: 'それから equivale a “después” y ordena la narración.',
+      },
+      {
+        id: 'ja-13-07',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Escribe en japonés: “Fui a Kioto”.',
+        hint: 'Usa 京都へ y 行きました.',
+        accepted: [
+          '京都へ行きました。',
+          '京都へ行きました',
+          '京都に行きました。',
+          '京都に行きました',
+        ],
+        modelAnswer: '京都へ行きました。',
+        explanation: 'へ o に pueden marcar el destino con 行きました.',
+      },
+      {
+        id: 'ja-13-08',
+        kind: 'open',
+        phase: 'transferir',
+        prompt: 'Escribe una acción que hiciste y otra que quieres hacer.',
+        hint: 'Combina una frase con ました y otra con たいです.',
+        accepted: [],
+        modelAnswer: '映画を見ました。今度は温泉に入りたいです。',
+        explanation:
+          'Debe distinguir claramente una experiencia pasada de un deseo futuro.',
+      },
+    ],
+  },
+};

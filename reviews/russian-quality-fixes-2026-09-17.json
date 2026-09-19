@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-17T00:00:00Z",
+  "status": "ai_checked",
+  "decision": "approve_with_minor_changes",
+  "requires_human_review": true,
+  "source_report": "Independent Camasa evaluation supplied by the user",
+  "fixes": [
+    {
+      "area": "gender_variants",
+      "units": ["ru-15", "ru-21", "ru-22", "ru-26", "ru-29", "ru-31"],
+      "result": "Masculine and feminine forms are accepted in gender-sensitive exact responses."
+    },
+    {
+      "area": "order_tokenization",
+      "units": [
+        "ru-13",
+        "ru-14",
+        "ru-15",
+        "ru-16",
+        "ru-17",
+        "ru-18",
+        "ru-19",
+        "ru-20",
+        "ru-21",
+        "ru-22",
+        "ru-23",
+        "ru-24",
+        "ru-25",
+        "ru-26",
+        "ru-27",
+        "ru-28",
+        "ru-29",
+        "ru-30",
+        "ru-31",
+        "ru-32",
+        "ru-33",
+        "ru-34",
+        "ru-35",
+        "ru-36"
+      ],
+      "result": "Words and punctuation are separate tokens; explicitly reviewed natural alternatives are accepted."
+    },
+    {
+      "area": "diagnostic_quality",
+      "units": [
+        "ru-13",
+        "ru-14",
+        "ru-15",
+        "ru-16",
+        "ru-17",
+        "ru-18",
+        "ru-19",
+        "ru-20",
+        "ru-21",
+        "ru-22",
+        "ru-23",
+        "ru-24",
+        "ru-25",
+        "ru-26",
+        "ru-27",
+        "ru-28",
+        "ru-29",
+        "ru-30",
+        "ru-31",
+        "ru-32",
+        "ru-33",
+        "ru-34",
+        "ru-35",
+        "ru-36"
+      ],
+      "result": "The first three exercises now test predictable grammar, case, aspect, agreement, syntax or register errors."
+    },
+    {
+      "area": "content_precision",
+      "units": ["ru-02", "ru-11"],
+      "result": "РОМА was replaced by unambiguous ВОДА practice; accusative is now explicitly taught and assessed with пицца → пиццу."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "reviewer": {
+    "system": "OpenAI Codex",
+    "review_method": "source-checked linguistic and pedagogical review",
+    "reviewed_at": "2026-09-16T00:00:00Z",
+    "independence_note": "AI review; not a human accreditation."
+  },
+  "common_scores": {
+    "linguistic_accuracy": 4,
+    "answer_accuracy": 4,
+    "naturalness_pragmatics": 4,
+    "objective_alignment": 4,
+    "level_scaffolding": 4,
+    "distractor_quality": 4,
+    "feedback_quality": 4,
+    "instruction_clarity": 4,
+    "communicative_value": 4,
+    "inclusion_safety": 4
+  },
+  "reviews": [
+    {
+      "content_id": "en-10-v1",
+      "language": "en",
+      "unit_id": "en-10",
+      "objective_evidence": [
+        "en-10-01",
+        "en-10-02",
+        "en-10-03",
+        "en-10-04",
+        "en-10-05",
+        "en-10-06",
+        "en-10-07",
+        "en-10-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes"
+    },
+    {
+      "content_id": "en-11-v1",
+      "language": "en",
+      "unit_id": "en-11",
+      "objective_evidence": [
+        "en-11-01",
+        "en-11-02",
+        "en-11-03",
+        "en-11-04",
+        "en-11-05",
+        "en-11-06",
+        "en-11-07",
+        "en-11-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes"
+    },
+    {
+      "content_id": "ja-18-v1",
+      "language": "ja",
+      "unit_id": "ja-18",
+      "objective_evidence": [
+        "ja-18-01",
+        "ja-18-02",
+        "ja-18-03",
+        "ja-18-04",
+        "ja-18-05",
+        "ja-18-06",
+        "ja-18-07",
+        "ja-18-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes"
+    },
+    {
+      "content_id": "ja-19-v1",
+      "language": "ja",
+      "unit_id": "ja-19",
+      "objective_evidence": [
+        "ja-19-01",
+        "ja-19-02",
+        "ja-19-03",
+        "ja-19-04",
+        "ja-19-05",
+        "ja-19-06",
+        "ja-19-07",
+        "ja-19-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes"
+    }
+  ]
+}

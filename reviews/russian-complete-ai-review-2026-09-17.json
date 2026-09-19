@@ -1,0 +1,723 @@
+{
+  "schema_version": "1.0",
+  "reviewer": {
+    "system": "OpenAI Codex",
+    "review_method": "source-checked internal AI review",
+    "reviewed_at": "2026-09-17T00:00:00Z",
+    "independence_note": "Internal AI review on a 0–4 rubric; not independent approval. Russian content requires user testing and human review."
+  },
+  "common_scores": {
+    "linguistic_accuracy": 4,
+    "answer_accuracy": 4,
+    "naturalness_pragmatics": 3,
+    "objective_alignment": 4,
+    "level_scaffolding": 4,
+    "distractor_quality": 3,
+    "feedback_quality": 4,
+    "instruction_clarity": 4,
+    "communicative_value": 4,
+    "inclusion_safety": 4
+  },
+  "reviews": [
+    {
+      "content_id": "ru-02-v1",
+      "language": "ru",
+      "unit_id": "ru-02",
+      "objective_evidence": [
+        "ru-02-01",
+        "ru-02-02",
+        "ru-02-03",
+        "ru-02-04",
+        "ru-02-05",
+        "ru-02-06",
+        "ru-02-07",
+        "ru-02-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-03-v1",
+      "language": "ru",
+      "unit_id": "ru-03",
+      "objective_evidence": [
+        "ru-03-01",
+        "ru-03-02",
+        "ru-03-03",
+        "ru-03-04",
+        "ru-03-05",
+        "ru-03-06",
+        "ru-03-07",
+        "ru-03-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-04-v1",
+      "language": "ru",
+      "unit_id": "ru-04",
+      "objective_evidence": [
+        "ru-04-01",
+        "ru-04-02",
+        "ru-04-03",
+        "ru-04-04",
+        "ru-04-05",
+        "ru-04-06",
+        "ru-04-07",
+        "ru-04-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-05-v1",
+      "language": "ru",
+      "unit_id": "ru-05",
+      "objective_evidence": [
+        "ru-05-01",
+        "ru-05-02",
+        "ru-05-03",
+        "ru-05-04",
+        "ru-05-05",
+        "ru-05-06",
+        "ru-05-07",
+        "ru-05-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-06-v1",
+      "language": "ru",
+      "unit_id": "ru-06",
+      "objective_evidence": [
+        "ru-06-01",
+        "ru-06-02",
+        "ru-06-03",
+        "ru-06-04",
+        "ru-06-05",
+        "ru-06-06",
+        "ru-06-07",
+        "ru-06-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-07-v1",
+      "language": "ru",
+      "unit_id": "ru-07",
+      "objective_evidence": [
+        "ru-07-01",
+        "ru-07-02",
+        "ru-07-03",
+        "ru-07-04",
+        "ru-07-05",
+        "ru-07-06",
+        "ru-07-07",
+        "ru-07-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-08-v1",
+      "language": "ru",
+      "unit_id": "ru-08",
+      "objective_evidence": [
+        "ru-08-01",
+        "ru-08-02",
+        "ru-08-03",
+        "ru-08-04",
+        "ru-08-05",
+        "ru-08-06",
+        "ru-08-07",
+        "ru-08-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-09-v1",
+      "language": "ru",
+      "unit_id": "ru-09",
+      "objective_evidence": [
+        "ru-09-01",
+        "ru-09-02",
+        "ru-09-03",
+        "ru-09-04",
+        "ru-09-05",
+        "ru-09-06",
+        "ru-09-07",
+        "ru-09-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-10-v1",
+      "language": "ru",
+      "unit_id": "ru-10",
+      "objective_evidence": [
+        "ru-10-01",
+        "ru-10-02",
+        "ru-10-03",
+        "ru-10-04",
+        "ru-10-05",
+        "ru-10-06",
+        "ru-10-07",
+        "ru-10-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-11-v1",
+      "language": "ru",
+      "unit_id": "ru-11",
+      "objective_evidence": [
+        "ru-11-01",
+        "ru-11-02",
+        "ru-11-03",
+        "ru-11-04",
+        "ru-11-05",
+        "ru-11-06",
+        "ru-11-07",
+        "ru-11-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-12-v1",
+      "language": "ru",
+      "unit_id": "ru-12",
+      "objective_evidence": [
+        "ru-12-01",
+        "ru-12-02",
+        "ru-12-03",
+        "ru-12-04",
+        "ru-12-05",
+        "ru-12-06",
+        "ru-12-07",
+        "ru-12-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-13-v1",
+      "language": "ru",
+      "unit_id": "ru-13",
+      "objective_evidence": [
+        "ru-13-01",
+        "ru-13-02",
+        "ru-13-03",
+        "ru-13-04",
+        "ru-13-05",
+        "ru-13-06",
+        "ru-13-07",
+        "ru-13-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-14-v1",
+      "language": "ru",
+      "unit_id": "ru-14",
+      "objective_evidence": [
+        "ru-14-01",
+        "ru-14-02",
+        "ru-14-03",
+        "ru-14-04",
+        "ru-14-05",
+        "ru-14-06",
+        "ru-14-07",
+        "ru-14-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-15-v1",
+      "language": "ru",
+      "unit_id": "ru-15",
+      "objective_evidence": [
+        "ru-15-01",
+        "ru-15-02",
+        "ru-15-03",
+        "ru-15-04",
+        "ru-15-05",
+        "ru-15-06",
+        "ru-15-07",
+        "ru-15-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-16-v1",
+      "language": "ru",
+      "unit_id": "ru-16",
+      "objective_evidence": [
+        "ru-16-01",
+        "ru-16-02",
+        "ru-16-03",
+        "ru-16-04",
+        "ru-16-05",
+        "ru-16-06",
+        "ru-16-07",
+        "ru-16-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-17-v1",
+      "language": "ru",
+      "unit_id": "ru-17",
+      "objective_evidence": [
+        "ru-17-01",
+        "ru-17-02",
+        "ru-17-03",
+        "ru-17-04",
+        "ru-17-05",
+        "ru-17-06",
+        "ru-17-07",
+        "ru-17-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-18-v1",
+      "language": "ru",
+      "unit_id": "ru-18",
+      "objective_evidence": [
+        "ru-18-01",
+        "ru-18-02",
+        "ru-18-03",
+        "ru-18-04",
+        "ru-18-05",
+        "ru-18-06",
+        "ru-18-07",
+        "ru-18-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-19-v1",
+      "language": "ru",
+      "unit_id": "ru-19",
+      "objective_evidence": [
+        "ru-19-01",
+        "ru-19-02",
+        "ru-19-03",
+        "ru-19-04",
+        "ru-19-05",
+        "ru-19-06",
+        "ru-19-07",
+        "ru-19-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-20-v1",
+      "language": "ru",
+      "unit_id": "ru-20",
+      "objective_evidence": [
+        "ru-20-01",
+        "ru-20-02",
+        "ru-20-03",
+        "ru-20-04",
+        "ru-20-05",
+        "ru-20-06",
+        "ru-20-07",
+        "ru-20-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-21-v1",
+      "language": "ru",
+      "unit_id": "ru-21",
+      "objective_evidence": [
+        "ru-21-01",
+        "ru-21-02",
+        "ru-21-03",
+        "ru-21-04",
+        "ru-21-05",
+        "ru-21-06",
+        "ru-21-07",
+        "ru-21-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-22-v1",
+      "language": "ru",
+      "unit_id": "ru-22",
+      "objective_evidence": [
+        "ru-22-01",
+        "ru-22-02",
+        "ru-22-03",
+        "ru-22-04",
+        "ru-22-05",
+        "ru-22-06",
+        "ru-22-07",
+        "ru-22-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-23-v1",
+      "language": "ru",
+      "unit_id": "ru-23",
+      "objective_evidence": [
+        "ru-23-01",
+        "ru-23-02",
+        "ru-23-03",
+        "ru-23-04",
+        "ru-23-05",
+        "ru-23-06",
+        "ru-23-07",
+        "ru-23-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-24-v1",
+      "language": "ru",
+      "unit_id": "ru-24",
+      "objective_evidence": [
+        "ru-24-01",
+        "ru-24-02",
+        "ru-24-03",
+        "ru-24-04",
+        "ru-24-05",
+        "ru-24-06",
+        "ru-24-07",
+        "ru-24-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-25-v1",
+      "language": "ru",
+      "unit_id": "ru-25",
+      "objective_evidence": [
+        "ru-25-01",
+        "ru-25-02",
+        "ru-25-03",
+        "ru-25-04",
+        "ru-25-05",
+        "ru-25-06",
+        "ru-25-07",
+        "ru-25-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-26-v1",
+      "language": "ru",
+      "unit_id": "ru-26",
+      "objective_evidence": [
+        "ru-26-01",
+        "ru-26-02",
+        "ru-26-03",
+        "ru-26-04",
+        "ru-26-05",
+        "ru-26-06",
+        "ru-26-07",
+        "ru-26-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-27-v1",
+      "language": "ru",
+      "unit_id": "ru-27",
+      "objective_evidence": [
+        "ru-27-01",
+        "ru-27-02",
+        "ru-27-03",
+        "ru-27-04",
+        "ru-27-05",
+        "ru-27-06",
+        "ru-27-07",
+        "ru-27-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-28-v1",
+      "language": "ru",
+      "unit_id": "ru-28",
+      "objective_evidence": [
+        "ru-28-01",
+        "ru-28-02",
+        "ru-28-03",
+        "ru-28-04",
+        "ru-28-05",
+        "ru-28-06",
+        "ru-28-07",
+        "ru-28-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-29-v1",
+      "language": "ru",
+      "unit_id": "ru-29",
+      "objective_evidence": [
+        "ru-29-01",
+        "ru-29-02",
+        "ru-29-03",
+        "ru-29-04",
+        "ru-29-05",
+        "ru-29-06",
+        "ru-29-07",
+        "ru-29-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-30-v1",
+      "language": "ru",
+      "unit_id": "ru-30",
+      "objective_evidence": [
+        "ru-30-01",
+        "ru-30-02",
+        "ru-30-03",
+        "ru-30-04",
+        "ru-30-05",
+        "ru-30-06",
+        "ru-30-07",
+        "ru-30-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-31-v1",
+      "language": "ru",
+      "unit_id": "ru-31",
+      "objective_evidence": [
+        "ru-31-01",
+        "ru-31-02",
+        "ru-31-03",
+        "ru-31-04",
+        "ru-31-05",
+        "ru-31-06",
+        "ru-31-07",
+        "ru-31-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-32-v1",
+      "language": "ru",
+      "unit_id": "ru-32",
+      "objective_evidence": [
+        "ru-32-01",
+        "ru-32-02",
+        "ru-32-03",
+        "ru-32-04",
+        "ru-32-05",
+        "ru-32-06",
+        "ru-32-07",
+        "ru-32-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-33-v1",
+      "language": "ru",
+      "unit_id": "ru-33",
+      "objective_evidence": [
+        "ru-33-01",
+        "ru-33-02",
+        "ru-33-03",
+        "ru-33-04",
+        "ru-33-05",
+        "ru-33-06",
+        "ru-33-07",
+        "ru-33-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-34-v1",
+      "language": "ru",
+      "unit_id": "ru-34",
+      "objective_evidence": [
+        "ru-34-01",
+        "ru-34-02",
+        "ru-34-03",
+        "ru-34-04",
+        "ru-34-05",
+        "ru-34-06",
+        "ru-34-07",
+        "ru-34-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-35-v1",
+      "language": "ru",
+      "unit_id": "ru-35",
+      "objective_evidence": [
+        "ru-35-01",
+        "ru-35-02",
+        "ru-35-03",
+        "ru-35-04",
+        "ru-35-05",
+        "ru-35-06",
+        "ru-35-07",
+        "ru-35-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-36-v1",
+      "language": "ru",
+      "unit_id": "ru-36",
+      "objective_evidence": [
+        "ru-36-01",
+        "ru-36-02",
+        "ru-36-03",
+        "ru-36-04",
+        "ru-36-05",
+        "ru-36-06",
+        "ru-36-07",
+        "ru-36-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    }
+  ]
+}

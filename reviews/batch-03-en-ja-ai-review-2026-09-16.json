@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "reviewer": {
+    "system": "OpenAI Codex",
+    "review_method": "source-checked linguistic and pedagogical review",
+    "reviewed_at": "2026-09-16T00:00:00Z",
+    "independence_note": "AI review; not a human accreditation."
+  },
+  "reviews": [
+    {
+      "content_id": "en-a1-03-v1",
+      "language": "en",
+      "level": "A1.1",
+      "unit_id": "en-a1-03",
+      "objective": "Puedo reconocer cantidades, precios y objetos cotidianos.",
+      "objective_evidence": [
+        "en-a1-03-01",
+        "en-a1-03-02",
+        "en-a1-03-03",
+        "en-a1-03-04",
+        "en-a1-03-05",
+        "en-a1-03-06",
+        "en-a1-03-07",
+        "en-a1-03-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4
+      },
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "en-a1-04-v1",
+      "language": "en",
+      "level": "A1.1",
+      "unit_id": "en-a1-04",
+      "objective": "Puedo presentar a mi familia y describir a una persona con frases breves.",
+      "objective_evidence": [
+        "en-a1-04-01",
+        "en-a1-04-02",
+        "en-a1-04-03",
+        "en-a1-04-04",
+        "en-a1-04-05",
+        "en-a1-04-06",
+        "en-a1-04-07",
+        "en-a1-04-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4
+      },
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-04-v1",
+      "language": "ja",
+      "level": "A1.1",
+      "unit_id": "ja-04",
+      "objective": "Puedo saludar, despedirme, agradecer y pedir que repitan.",
+      "objective_evidence": [
+        "ja-04-01",
+        "ja-04-02",
+        "ja-04-03",
+        "ja-04-04",
+        "ja-04-05",
+        "ja-04-06",
+        "ja-04-07",
+        "ja-04-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4,
+        "romanization_transliteration": 4
+      },
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-05-v1",
+      "language": "ja",
+      "level": "A1.1",
+      "unit_id": "ja-05",
+      "objective": "Puedo decir mi nombre, origen e idiomas y preguntar información básica.",
+      "objective_evidence": [
+        "ja-05-01",
+        "ja-05-02",
+        "ja-05-03",
+        "ja-05-04",
+        "ja-05-05",
+        "ja-05-06",
+        "ja-05-07",
+        "ja-05-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4,
+        "romanization_transliteration": 4
+      },
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "reviewer": {
+    "system": "OpenAI Codex",
+    "review_method": "source-checked internal AI review",
+    "reviewed_at": "2026-09-17T00:00:00Z",
+    "independence_note": "Internal AI review on a 0–4 rubric; not independent approval."
+  },
+  "common_scores": {
+    "linguistic_accuracy": 4,
+    "answer_accuracy": 4,
+    "naturalness_pragmatics": 4,
+    "objective_alignment": 4,
+    "level_scaffolding": 4,
+    "distractor_quality": 4,
+    "feedback_quality": 4,
+    "instruction_clarity": 4,
+    "communicative_value": 4,
+    "inclusion_safety": 4
+  },
+  "reviews": [
+    {
+      "content_id": "en-22-v1",
+      "language": "en",
+      "unit_id": "en-22",
+      "objective_evidence": [
+        "en-22-01",
+        "en-22-02",
+        "en-22-03",
+        "en-22-04",
+        "en-22-05",
+        "en-22-06",
+        "en-22-07",
+        "en-22-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "en-23-v1",
+      "language": "en",
+      "unit_id": "en-23",
+      "objective_evidence": [
+        "en-23-01",
+        "en-23-02",
+        "en-23-03",
+        "en-23-04",
+        "en-23-05",
+        "en-23-06",
+        "en-23-07",
+        "en-23-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "en-24-v1",
+      "language": "en",
+      "unit_id": "en-24",
+      "objective_evidence": [
+        "en-24-01",
+        "en-24-02",
+        "en-24-03",
+        "en-24-04",
+        "en-24-05",
+        "en-24-06",
+        "en-24-07",
+        "en-24-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-30-v1",
+      "language": "ja",
+      "unit_id": "ja-30",
+      "objective_evidence": [
+        "ja-30-01",
+        "ja-30-02",
+        "ja-30-03",
+        "ja-30-04",
+        "ja-30-05",
+        "ja-30-06",
+        "ja-30-07",
+        "ja-30-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-31-v1",
+      "language": "ja",
+      "unit_id": "ja-31",
+      "objective_evidence": [
+        "ja-31-01",
+        "ja-31-02",
+        "ja-31-03",
+        "ja-31-04",
+        "ja-31-05",
+        "ja-31-06",
+        "ja-31-07",
+        "ja-31-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-32-v1",
+      "language": "ja",
+      "unit_id": "ja-32",
+      "objective_evidence": [
+        "ja-32-01",
+        "ja-32-02",
+        "ja-32-03",
+        "ja-32-04",
+        "ja-32-05",
+        "ja-32-06",
+        "ja-32-07",
+        "ja-32-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-33-v1",
+      "language": "ja",
+      "unit_id": "ja-33",
+      "objective_evidence": [
+        "ja-33-01",
+        "ja-33-02",
+        "ja-33-03",
+        "ja-33-04",
+        "ja-33-05",
+        "ja-33-06",
+        "ja-33-07",
+        "ja-33-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-34-v1",
+      "language": "ja",
+      "unit_id": "ja-34",
+      "objective_evidence": [
+        "ja-34-01",
+        "ja-34-02",
+        "ja-34-03",
+        "ja-34-04",
+        "ja-34-05",
+        "ja-34-06",
+        "ja-34-07",
+        "ja-34-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-35-v1",
+      "language": "ja",
+      "unit_id": "ja-35",
+      "objective_evidence": [
+        "ja-35-01",
+        "ja-35-02",
+        "ja-35-03",
+        "ja-35-04",
+        "ja-35-05",
+        "ja-35-06",
+        "ja-35-07",
+        "ja-35-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-36-v1",
+      "language": "ja",
+      "unit_id": "ja-36",
+      "objective_evidence": [
+        "ja-36-01",
+        "ja-36-02",
+        "ja-36-03",
+        "ja-36-04",
+        "ja-36-05",
+        "ja-36-06",
+        "ja-36-07",
+        "ja-36-08"
+      ],
+      "instruction_review": "ai_checked",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "decision": "approve_with_minor_changes",
+      "requires_human_review": true
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "review_policy": {
+    "machine_check_is_approval": false,
+    "required_before_release": ["linguistic_review", "pedagogical_review"],
+    "instructions": "Usar content-review-template.json para cada revisión. Una lección no pasa a publicada hasta recibir ambas aprobaciones."
+  },
+  "lessons": [
+    {
+      "content_id": "en-a2-u02-model-v1",
+      "language": "en",
+      "level": "A2.1",
+      "unit_id": "en-02",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "ja-prea1-u01-model-v1",
+      "language": "ja",
+      "level": "Pre-A1",
+      "unit_id": "ja-01",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "fr-a1-u01-model-v1",
+      "language": "fr",
+      "level": "A1.1",
+      "unit_id": "fr-01",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "ru-prea1-u01-model-v1",
+      "language": "ru",
+      "level": "Pre-A1",
+      "unit_id": "ru-01",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "en-a1-u01-v1",
+      "language": "en",
+      "level": "A1.1",
+      "unit_id": "en-a1-01",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "en-a1-u02-v1",
+      "language": "en",
+      "level": "A1.1",
+      "unit_id": "en-a1-02",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "ja-prea1-u02-v1",
+      "language": "ja",
+      "level": "Pre-A1",
+      "unit_id": "ja-02",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    },
+    {
+      "content_id": "ja-prea1-u03-v1",
+      "language": "ja",
+      "level": "Pre-A1",
+      "unit_id": "ja-03",
+      "exercise_count": 8,
+      "status": "ai_reviewed",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "release_decision": "approved_for_local_use"
+    }
+  ]
+}

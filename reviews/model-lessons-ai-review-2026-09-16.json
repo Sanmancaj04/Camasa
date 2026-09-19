@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "reviewer": {
+    "system": "OpenAI Codex",
+    "review_method": "source-checked linguistic and pedagogical review",
+    "reviewed_at": "2026-09-16T00:00:00Z",
+    "independence_note": "AI review performed against cited official or institutional sources; it is not a human accreditation."
+  },
+  "reviews": [
+    {
+      "content_id": "en-a2-u02-model-v1",
+      "language": "en",
+      "level": "A2.1",
+      "unit_id": "en-02",
+      "objective": "Puedo describir una rutina y expresar con qué frecuencia hago actividades cotidianas.",
+      "objective_evidence": [
+        "en-model-01",
+        "en-model-04",
+        "en-model-05",
+        "en-model-06",
+        "en-model-07",
+        "en-model-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4
+      },
+      "lesson_scores": {
+        "objective_observable": 4,
+        "sequence": 4,
+        "coverage": 4,
+        "skill_balance": 4,
+        "difficulty_progression": 4,
+        "purposeful_variety": 4,
+        "mastery_assessment": 4,
+        "review_transfer": 4,
+        "cognitive_load_duration": 4,
+        "editorial_consistency": 4
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple",
+        "https://learnenglish.britishcouncil.org/comment/185766",
+        "https://learnenglish.britishcouncil.org/free-resources/vocabulary/a1-a2/daily-routine-vocabulary-a1-beginner-english-vocabulary-lesson"
+      ],
+      "decision": "approve_with_minor_changes",
+      "decision_reason": "Las respuestas, distractores y explicaciones concuerdan con el uso del presente simple y los adverbios de frecuencia documentado por British Council.",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ja-prea1-u01-model-v1",
+      "language": "ja",
+      "level": "Pre-A1",
+      "unit_id": "ja-01",
+      "objective": "Puedo reconocer, ordenar y escribir las cinco vocales del hiragana.",
+      "objective_evidence": [
+        "ja-model-01",
+        "ja-model-02",
+        "ja-model-03",
+        "ja-model-04",
+        "ja-model-05",
+        "ja-model-06",
+        "ja-model-07",
+        "ja-model-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4,
+        "romanization_transliteration": 4
+      },
+      "lesson_scores": {
+        "objective_observable": 4,
+        "sequence": 4,
+        "coverage": 4,
+        "skill_balance": 4,
+        "difficulty_progression": 4,
+        "purposeful_variety": 4,
+        "mastery_assessment": 4,
+        "review_transfer": 4,
+        "cognitive_load_duration": 4,
+        "editorial_consistency": 4
+      },
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01_au.pdf",
+        "https://www.irodori.jpf.go.jp/starter/audio/lesson01.html"
+      ],
+      "decision": "approve_with_minor_changes",
+      "decision_reason": "La secuencia, correspondencias y orden de las cinco vocales coinciden con Irodori Starter de The Japan Foundation.",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "fr-a1-u01-model-v1",
+      "language": "fr",
+      "level": "A1.1",
+      "unit_id": "fr-01",
+      "objective": "Puedo saludar, despedirme y elegir entre tu y vous en intercambios básicos.",
+      "objective_evidence": [
+        "fr-model-01",
+        "fr-model-02",
+        "fr-model-04",
+        "fr-model-05",
+        "fr-model-06",
+        "fr-model-07",
+        "fr-model-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4
+      },
+      "lesson_scores": {
+        "objective_observable": 4,
+        "sequence": 4,
+        "coverage": 4,
+        "skill_balance": 4,
+        "difficulty_progression": 4,
+        "purposeful_variety": 4,
+        "mastery_assessment": 4,
+        "review_transfer": 4,
+        "cognitive_load_duration": 4,
+        "editorial_consistency": 4
+      },
+      "sources": [
+        "https://apprendre.tv5monde.com/fr/exercices/premiere-classe/les-salutations",
+        "https://presse.tv5monde.com/premiere-classe-avec-tv5monde-un-parcours-dapprentissage-gratuit-pour-les-debutants-en-francaisversion-2022/?lang=fr"
+      ],
+      "decision": "approve_with_minor_changes",
+      "decision_reason": "Los saludos, la presentación y la distinción situacional tu/vous están alineados con el módulo A1 Première classe de TV5MONDE.",
+      "requires_human_review": true
+    },
+    {
+      "content_id": "ru-prea1-u01-model-v1",
+      "language": "ru",
+      "level": "Pre-A1",
+      "unit_id": "ru-01",
+      "objective": "Puedo reconocer y ordenar letras cirílicas transparentes y distinguir Р de la P latina.",
+      "objective_evidence": [
+        "ru-model-01",
+        "ru-model-02",
+        "ru-model-03",
+        "ru-model-04",
+        "ru-model-05",
+        "ru-model-06",
+        "ru-model-07",
+        "ru-model-08"
+      ],
+      "instruction_review": "approved",
+      "linguistic_review": "ai_checked",
+      "pedagogical_review": "ai_checked",
+      "scores": {
+        "linguistic_accuracy": 4,
+        "answer_accuracy": 4,
+        "naturalness_pragmatics": 4,
+        "objective_alignment": 4,
+        "level_scaffolding": 4,
+        "distractor_quality": 4,
+        "feedback_quality": 4,
+        "instruction_clarity": 4,
+        "communicative_value": 4,
+        "inclusion_safety": 4,
+        "romanization_transliteration": 4
+      },
+      "lesson_scores": {
+        "objective_observable": 4,
+        "sequence": 4,
+        "coverage": 4,
+        "skill_balance": 4,
+        "difficulty_progression": 4,
+        "purposeful_variety": 4,
+        "mastery_assessment": 4,
+        "review_transfer": 4,
+        "cognitive_load_duration": 4,
+        "editorial_consistency": 4
+      },
+      "sources": [
+        "https://gramota.ru/biblioteka/slovari/bolshoj-universalnyj-slovar-russkogo-yazyka/russkiy-alfavit-129",
+        "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/zvuk-i-bukva"
+      ],
+      "decision": "approve_with_minor_changes",
+      "decision_reason": "Las letras, sus nombres y la distinción entre forma latina y valor cirílico concuerdan con las referencias lexicográficas de Gramota.ru; las equivalencias se presentan como aproximaciones iniciales.",
+      "requires_human_review": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "content_id": "lesson-or-exercise-id",
+  "language": "en|ja|fr|ru",
+  "level": "A1|A2|B1|B2",
+  "unit_id": "curriculum-unit-id",
+  "objective": "observable can-do objective",
+  "skill": "listening|reading|speaking|writing|interaction|mediation",
+  "exercise_type": "choice|ordering|open|listening|other",
+  "status": "draft|machine_checked|ai_reviewed|needs_changes|human_reviewed|approved|retired",
+  "review_type": "linguistic|pedagogical",
+  "reviewer": {
+    "system": "model-or-human-name",
+    "version": "version",
+    "reviewed_at": "YYYY-MM-DDTHH:mm:ssZ"
+  },
+  "independent_solution": {
+    "answer": "answer produced before comparing with the supplied key",
+    "reasoning_summary": "brief justification",
+    "matches_supplied_key": true
+  },
+  "critical_failures": [],
+  "scores": {
+    "linguistic_accuracy": 0,
+    "answer_accuracy": 0,
+    "naturalness_pragmatics": 0,
+    "objective_alignment": 0,
+    "level_scaffolding": 0,
+    "distractor_quality": 0,
+    "feedback_quality": 0,
+    "instruction_clarity": 0,
+    "communicative_value": 0,
+    "inclusion_safety": 0,
+    "audio_alignment": null,
+    "romanization_transliteration": null
+  },
+  "lesson_scores": {
+    "objective_observable": null,
+    "sequence": null,
+    "coverage": null,
+    "skill_balance": null,
+    "difficulty_progression": null,
+    "purposeful_variety": null,
+    "mastery_assessment": null,
+    "review_transfer": null,
+    "cognitive_load_duration": null,
+    "editorial_consistency": null
+  },
+  "findings": [
+    {
+      "severity": "critical|major|minor|note",
+      "field": "prompt|option|answer|explanation|audio|objective|other",
+      "exact_text": "problematic text",
+      "issue": "description",
+      "proposed_fix": "replacement or action",
+      "confidence": 0.0,
+      "source_url": "https://example.org/or-empty",
+      "regional_or_register_note": "note or empty"
+    }
+  ],
+  "valid_alternatives": [],
+  "requires_human_review": true,
+  "decision": "approve|approve_with_minor_changes|revise|reject|human_review_required",
+  "decision_reason": "brief evidence-based summary"
+}

@@ -1,0 +1,129 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-heading: var(--font-geist-sans);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * 0.65);
+  --radius-md: calc(var(--radius) * 0.82);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.25);
+  --radius-2xl: calc(var(--radius) * 1.6);
+}
+
+:root {
+  --canvas: #f8e7de;
+  --surface: #fff9f3;
+  --ink: #1d2b3a;
+  --line: #e9cfc3;
+  --primary-soft: #e5f6ef;
+  --primary-shadow: #1f7559;
+  --orange: #f59e42;
+  --orange-soft: #fff0dc;
+  --salmon: #f27d72;
+  --salmon-soft: #fff0ed;
+  --background: #f8e7de;
+  --foreground: #1d2b3a;
+  --card: #fff9f3;
+  --card-foreground: #1d2b3a;
+  --primary: #2d9d78;
+  --primary-foreground: #ffffff;
+  --secondary: #f3e2d9;
+  --secondary-foreground: #263646;
+  --muted: #f3e2d9;
+  --muted-foreground: #6e7a84;
+  --accent: #fff0dc;
+  --accent-foreground: #a95c14;
+  --destructive: #d85e55;
+  --border: #e9cfc3;
+  --input: #dfc5ba;
+  --ring: #2d9d78;
+  --radius: 0.9rem;
+}
+
+* { border-color: var(--border); }
+html { background: var(--canvas); }
+body { margin: 0; font-family: var(--font-geist-sans), Arial, sans-serif; background: var(--canvas); }
+button { cursor: pointer; }
+button:focus-visible { outline: 3px solid color-mix(in srgb, var(--primary), transparent 65%); outline-offset: 2px; }
+
+.camasa-companion {
+  position: fixed;
+  z-index: 40;
+  right: 18px;
+  bottom: 14px;
+  width: 150px;
+  height: 190px;
+  pointer-events: none;
+  filter: drop-shadow(0 12px 18px rgb(77 46 37 / 20%));
+}
+
+.camasa-companion__image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 126px;
+  height: 180px;
+  object-fit: contain;
+  object-position: center bottom;
+  animation: camasa-float 4.2s ease-in-out infinite;
+}
+
+.camasa-companion__bubble {
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: -26px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 16px 16px 4px 16px;
+  background: var(--surface);
+  color: var(--foreground);
+  box-shadow: 0 8px 24px rgb(77 46 37 / 12%);
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+@keyframes camasa-float {
+  0%, 100% { transform: translateY(0) rotate(-0.5deg); }
+  50% { transform: translateY(-6px) rotate(0.5deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .camasa-companion__image { animation: none; }
+}
+
+@media (max-width: 1023px) {
+  body { padding-bottom: 68px; }
+  .camasa-companion {
+    right: 5px;
+    bottom: 70px;
+    width: 96px;
+    height: 126px;
+  }
+  .camasa-companion__image {
+    width: 86px;
+    height: 122px;
+  }
+  .camasa-companion__bubble { display: none; }
+}
